@@ -38,25 +38,5 @@ int main() {
     linkedList.changeFirst("Berhenti di Kamu", "Gia Pratama", 2018);
     linkedList.printSingleLinkedList();
 
-    cout << "\n\n" << endl;
-
-    linkedList.addMiddle("Bumi Manusia", "Pramoedya Anata Toer", 2005, 2);
-    linkedList.printSingleLinkedList();
-
-    cout << "\n\n" << endl;
-
-    linkedList.addMiddle("Negeri 5 Menara", "Ahmad Fuadi", 2009, 2);
-    linkedList.printSingleLinkedList();
-
-    cout << "\n\n" << endl;
-
-    linkedList.removeMiddle(5);
-    linkedList.printSingleLinkedList();
-
-    cout << "\n\n" << endl;
-
-    linkedList.changeMiddle("Sang Pemimpi", "Andrea Hirata", 2006, 2);
-    linkedList.printSingleLinkedList();
-
     return 0;
 }
